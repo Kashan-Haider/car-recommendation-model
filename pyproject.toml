@@ -1,0 +1,27 @@
+[project]
+name = "car-recommendation-model"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Kashan Haider",email = "hkashan.dev@gmail.com"}
+]
+readme = "README.md"
+requires-python =">=3.10,<3.11"
+dependencies = [
+    "pinecone[grpc] (>=6.0.2,<7.0.0)",
+    "pinecone[grpc] (>=6.0.2,<7.0.0)",
+    "dotenv (>=0.9.9,<0.10.0)",
+    "numpy (>=1.21.5, <2.0)",
+    "sentence-transformers (>=3.4.1,<4.0.0)",
+    "google-genai (>=1.5.0,<2.0.0)",
+    "pinecone-text (>=0.10.0,<0.11.0)",
+    "streamlit (>=1.43.2,<2.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "car_recommendation_model", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

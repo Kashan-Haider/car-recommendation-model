@@ -1,0 +1,7 @@
+[theme]
+primaryColor = "#3a3b5e"        # Indigo for primary interactive elements
+backgroundColor = "#111827"      # Dark slate for background
+secondaryBackgroundColor = "#1F2937" # Slightly lighter slate for cards/containers
+textColor = "#F3F4F6"           # Light gray for text
+
+font = "Inter"      
