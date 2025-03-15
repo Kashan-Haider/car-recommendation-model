@@ -19,6 +19,7 @@ A smart car recommendation system that uses natural language processing, vector 
 ## 📋 Requirements
 
 - Python 3.8+
+- Poetry (dependency management)
 - Streamlit
 - Pinecone
 - Sentence Transformers
@@ -34,9 +35,9 @@ git clone https://github.com/yourusername/car-recommendation-system.git
 cd car-recommendation-system
 ```
 
-2. Install the required packages:
+2. Install dependencies using Poetry:
 ```bash
-pip install -r requirements.txt
+poetry install
 ```
 
 3. Create a `.env` file in the project root and add your API keys:
@@ -47,18 +48,16 @@ GEMINI_API=your_gemini_api_key
 
 ## 🚀 Usage
 
-1. Start the Streamlit application:
+1. Start the application using Poetry:
 ```bash
-streamlit run app.py
+poetry run python src/car-recommendation-model/main.py
 ```
 
-2. Open your browser and navigate to `http://localhost:8501`
+2. Open your browser and navigate to the URL shown in the terminal
 
 3. Enter your car preferences in natural language (e.g., "I need a 7 seater family SUV with low price and great features")
 
-4. Optionally, use the sidebar filters to refine your search
-
-5. View the AI-generated recommendations based on your query
+4. View the AI-generated recommendations based on your query
 
 ## 🏗️ System Architecture
 
