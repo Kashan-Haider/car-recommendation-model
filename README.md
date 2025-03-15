@@ -14,7 +14,6 @@ A smart car recommendation system that uses natural language processing, vector 
 - **AI-Powered Recommendations**: Get personalized car suggestions based on your specific needs
 - **Hybrid Search**: Combines dense and sparse vector embeddings for more accurate results
 - **User-Friendly Interface**: Clean, responsive UI built with Streamlit
-- **Smart Filtering**: Refine results by price range, body type, engine type, and more
 - **Detailed Recommendations**: View comprehensive information about each recommended car
 
 ## 📋 Requirements
