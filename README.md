@@ -32,7 +32,6 @@ A smart car recommendation system that uses natural language processing, vector 
 1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/car-recommendation-system.git
-cd car-recommendation-system
 ```
 
 2. Install dependencies using Poetry:
