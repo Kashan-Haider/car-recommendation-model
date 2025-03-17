@@ -61,7 +61,6 @@ poetry run main.py
 
 ## 🏗️ System Architecture
 
-![System Architecture](https://via.placeholder.com/800x400?text=Car+Recommendation+System+Architecture)
 
 The system uses a multi-step process to provide accurate recommendations:
 
