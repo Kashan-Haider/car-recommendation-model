@@ -50,7 +50,7 @@ GEMINI_API=your_gemini_api_key
 
 1. Start the application using Poetry:
 ```bash
-poetry run python src/car-recommendation-model/main.py
+poetry run main.py
 ```
 
 2. Open your browser and navigate to the URL shown in the terminal
