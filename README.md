@@ -32,7 +32,6 @@ A smart car recommendation system that uses natural language processing, vector 
 1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/car-recommendation-system.git
-cd car-recommendation-system
 ```
 
 2. Install dependencies using Poetry:
@@ -50,7 +49,7 @@ GEMINI_API=your_gemini_api_key
 
 1. Start the application using Poetry:
 ```bash
-poetry run python src/car-recommendation-model/main.py
+poetry run main.py
 ```
 
 2. Open your browser and navigate to the URL shown in the terminal
@@ -61,7 +60,6 @@ poetry run python src/car-recommendation-model/main.py
 
 ## 🏗️ System Architecture
 
-![System Architecture](https://via.placeholder.com/800x400?text=Car+Recommendation+System+Architecture)
 
 The system uses a multi-step process to provide accurate recommendations:
 
