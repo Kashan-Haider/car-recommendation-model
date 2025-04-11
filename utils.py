@@ -19,12 +19,12 @@ def load_models():
 model = load_models()
 
 
-def get_query_dense_embeddings(text):
-    embeddings = model.encode(text)
+def get_query_dense_embeddings(text:str) -> list[float]:
+    embeddings: list[float] = model.encode(text)
     return embeddings
 
 
-def get_query_sparse_embeddings(query):
+def get_query_sparse_embeddings(query : str) -> list[float] :
     encoder = BM25Encoder()
     texts = [
         "Looking for a Toyota Fortuner Legender 2022 in I-8, Islamabad Islamabad; mileage 5 km; Diesel engine, Automatic transmission, white color, local status, 2800 cc engine capacity, SUV body type; features include ABS, AM/FM Radio, Air Bags, Air Conditioning, Alloy Rims, Cassette Player, Cruise Control, Immobilizer Key, Keyless Entry, Navigation System, Power Locks, Power Mirrors, Power Steering, Power Windows; price: 15000000",
@@ -37,7 +37,7 @@ def get_query_sparse_embeddings(query):
 
 def connect_to_pinecone():
     pc = Pinecone(api_key=PINECONE_API_KEY)
-    index_name = "cars-recommendation-system-index"
+    index_name: str = "cars-recommendation-system-index"
     index = pc.Index(index_name)
     return index
 
