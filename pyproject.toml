@@ -19,7 +19,7 @@ dependencies = [
 ]
 
 [tool.poetry]
-packages = [{include = "car_recommendation_model", from = "src"}]
+package-mode = false
 
 
 [build-system]
